@@ -35,8 +35,8 @@ message_ = ("Hi hope you're well,"
 #"- Clive"
 "www.matrixepos.co.uk"
 "I look forward to hearing from you!")
-username = ('matrixepos@gmail.com')
-password = ('Birmingham@2020')
+username = ('ml.com')
+password = ('B20')
 
 class bot:
 	def __init__(self, username, password, user, message_):
@@ -121,7 +121,7 @@ for i in user:
 	# here will take the next username from the user's list.
 
 def init():
-	bot('matrixepos@gmail.com', 'Birmingham@2020', user, message_)
+	bot('@gmail.com', '', user, message_)
 
 	input("we is done bonny")
 
