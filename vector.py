@@ -9,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
-user =['chavare_22','clivesdoesmarketing']
+user =['chavare_22','clivesdoesmarketing','randomuser']
 message_ = ("Hi hope you're well,"
 "I believe We came across your business online and I noticed what service"
 "you're promoting."
@@ -33,8 +33,8 @@ message_ = ("Hi hope you're well,"
 #"- Clive"
 ""
 "I look forward to hearing from you!")
-username = ('ml.com')
-password = ('B20')
+username = ('mlfff.com')
+password = ('B2ff0')
 
 class bot:
 	def __init__(self, username, password, user, message_):
